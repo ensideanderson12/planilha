@@ -1,0 +1,152 @@
+═══════════════════════════════════════════════════════════════════════════
+          SISTEMA INTEGRADO DE TRANSPARÊNCIA - MADEIRA B2B
+                  INSTRUÇÕES DE IMPLEMENTAÇÃO MANUAL
+═══════════════════════════════════════════════════════════════════════════
+
+Data de Criação: 01/08/2025
+Usuário: AnderADM
+Base de Operações: Araçatuba-SP
+
+Este documento fornece instruções detalhadas para a implementação manual do Sistema
+Integrado de Transparência que materializa o modelo disruptivo baseado em transparência
+total e divisão de lucro excedente com fornecedores parceiros.
+
+PASSO 1: CRIAÇÃO DO ARQUIVO EXCEL BASE
+--------------------------------------
+1. Abra o Microsoft Excel
+2. Crie um novo arquivo em branco
+3. Configure as seguintes abas (worksheets):
+   - Dashboard
+   - Divisao_Lucro
+   - Multiprodutos
+   - Logistica
+   - Banco_Dados
+   - Simulador
+4. Salve o arquivo como "Sistema_Transparencia_Madeira_B2B.xlsx" nesta pasta:
+   C:\Users\AnderADM\OneDrive\Desktop\CLIENTES (1)\backup pc core i7\ONEDRIVE 2025\Documentos\Sistema_Transparencia_Madeira_B2B
+
+PASSO 2: CONFIGURAÇÃO DA ABA DASHBOARD
+--------------------------------------
+1. Na aba "Dashboard", insira os seguintes elementos:
+   - Título principal: "SISTEMA INTEGRADO DE TRANSPARÊNCIA - MADEIRA B2B"
+   - Subtítulo: "Modelo disruptivo baseado em transparência total e divisão de lucro excedente"
+   - Data de atualização: [fórmula para data atual]
+   - Seções principais:
+     * Resumo da Operação Atual
+     * Comparativo Modelo Tradicional vs. Modelo Transparente
+     * Indicadores-Chave de Desempenho
+
+PASSO 3: CONFIGURAÇÃO DA ABA DIVISÃO DE LUCRO
+---------------------------------------------
+1. Na aba "Divisao_Lucro", configure:
+   - Título: "DIVISÃO TRANSPARENTE DO LUCRO EXCEDENTE"
+   - Campos para seleção de fornecedor
+   - Seções:
+     * Parâmetros da Operação
+     * Cálculo dos Custos Reais
+     * Cálculo do Lucro Excedente
+     * Bônus de Parceria (Base 40% + Bônus Volume/Tempo/Consistência)
+     * Resultado Final Comparativo
+
+2. Fórmulas essenciais:
+   - Custo Total = Preço Base Fornecedor + Custo Logístico + Custos Operacionais
+   - Lucro Excedente = Preço Final ao Cliente - Custo Total
+   - Valor Compartilhado = Lucro Excedente * Percentual Final
+   - Percentual Final = 40% (base) + Bônus Volume + Bônus Tempo + Bônus Consistência
+
+PASSO 4: CONFIGURAÇÃO DA ABA MULTIPRODUTOS
+------------------------------------------
+1. Na aba "Multiprodutos", configure:
+   - Título: "ANÁLISE MULTIPRODUTOS - SEGMENTAÇÃO ESTRATÉGICA"
+   - Segmentação por tipo de mercado:
+     * Construção/Caixaria
+     * Moveleiro - Alto Padrão
+     * Embalagens Especializadas
+   
+2. Para cada produto, inclua colunas para:
+   - Dimensões (Espessura, Largura, Comprimento)
+   - Volume unitário e total
+   - Preço Base do Fornecedor
+   - Custo Logístico (considerando distância dos estados do Sul)
+   - Custos Operacionais
+   - Preço Final ao Cliente
+   - Lucro Excedente
+   - Percentual de Margem
+
+PASSO 5: CONFIGURAÇÃO DA ABA LOGÍSTICA
+--------------------------------------
+1. Na aba "Logistica", configure:
+   - Título: "OTIMIZAÇÃO LOGÍSTICA - BASE ARAÇATUBA"
+   - Campos para seleção de origem (fornecedores do Sul) e destino
+   - Cálculo automático de distância
+   - Análise comparativa de transportadoras
+   - Otimização de carga
+   - Análise de rotas alternativas
+
+PASSO 6: CONFIGURAÇÃO DO BANCO DE DADOS
+---------------------------------------
+1. Na aba "Banco_Dados", cadastre:
+   - Fornecedores Parceiros dos estados do Sul (RS, SC, PR)
+   - Clientes por segmento
+   - Produtos com especificações técnicas
+   - Transportadoras parceiras
+
+PASSO 7: CONFIGURAÇÃO DO SIMULADOR
+----------------------------------
+1. Na aba "Simulador", implemente:
+   - Projeção de operações futuras
+   - Análise de sensibilidade para variações de preço
+   - Simulação de diferentes percentuais de compartilhamento
+   - Projeção de ganhos acumulados em 12 meses
+
+DADOS DE EXEMPLO
+---------------
+Para facilitar a implementação, utilize os seguintes dados iniciais:
+
+* Fornecedores Parceiros:
+  - Serraria Pinheiros Altos (São José dos Pinhais-PR, 950 km, 8 meses)
+  - Madeireira Sul Brasil (Lages-SC, 1050 km, 6 meses)
+  - Pinus Premium (Caxias do Sul-RS, 1200 km, 4 meses)
+  - Eucaliptos Nobres (Guarapuava-PR, 870 km, 12 meses)
+
+* Clientes:
+  - Construtora Horizonte (Ribeirão Preto-SP, Construção, 280 km)
+  - Móveis Premium (São Paulo-SP, Moveleiro, 530 km)
+  - Embalagens Brasil (Campinas-SP, Embalagens, 450 km)
+
+* Produtos (amostra):
+  - Tábua Pinus 25mm x 150mm x 3,00m: R$ 720,00/m³ (base) | R$ 1.170,00/m³ (final)
+  - Tábua Pinus 25mm x 200mm x 3,00m: R$ 700,00/m³ (base) | R$ 1.150,00/m³ (final)
+  - Viga Eucalipto 50mm x 150mm x 4,00m: R$ 880,00/m³ (base) | R$ 1.380,00/m³ (final)
+
+* Transportadoras:
+  - TransMadeira: R$ 8,57/km, 55 m³, 2 dias
+  - LogMad Express: R$ 9,20/km, 50 m³, 1 dia
+  - TransSul: R$ 7,90/km, 60 m³, 3 dias
+
+* Exemplo de Cálculo de Divisão do Lucro Excedente:
+  - Preço Base Fornecedor: R$ 700,00/m³
+  - Custo Logístico: R$ 328,57/m³
+  - Custos Operacionais: R$ 80,50/m³
+  - Custo Total: R$ 1.109,07/m³
+  - Preço Final ao Cliente: R$ 1.170,00/m³
+  - Lucro Excedente: R$ 60,93/m³
+  - Percentual Base: 40,0% = R$ 24,37/m³
+  - Bônus Volume: 3,5% = R$ 2,13/m³
+  - Bônus Tempo: 2,0% = R$ 1,22/m³
+  - Bônus Consistência: 1,0% = R$ 0,61/m³
+  - Percentual Final: 46,5% = R$ 28,33/m³
+  - Modelo Tradicional: Fornecedor recebe R$ 700,00/m³
+  - Modelo Transparente: Fornecedor recebe R$ 728,33/m³
+  - Ganho adicional: 4,0%
+
+SUPORTE ADICIONAL
+----------------
+Para esclarecimentos ou suporte na implementação, consulte:
+- Documentação completa do modelo de negócio
+- Manual de operações
+- Guia de apresentação para fornecedores parceiros
+
+Este Sistema Integrado de Transparência materializa seu diferencial competitivo
+baseado em transparência total e divisão de lucro excedente com fornecedores
+parceiros, fortalecendo parcerias estratégicas e otimizando operações.
